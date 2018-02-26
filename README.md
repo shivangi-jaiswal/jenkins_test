@@ -1,6 +1,6 @@
 # microservices-sample-project
 
-### Prerequisities
+## Prerequisities
   * JDK 1.8.X
   * Maven 3.3.X
   * MongoDB
