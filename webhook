@@ -2,7 +2,7 @@ node {
    def mvnHome
    stage('Preparation') { // for display purposes
       // Get some code from a GitHub repository
-      git branch: '', credentialsId: '18b8a613-ed3d-40a7-8656-4485399720ec', url: 'git@github.com:shivangi-jaiswal/jenkins_test.git'
+    git credentialsId: '18b8a613-ed3d-40a7-8656-4485399720ec', url: 'git@github.com:shivangi-jaiswal/jenkins_test.git'
       // Get the Maven tool.
       // ** NOTE: This 'M3' Maven tool must be configured
       // **       in the global configuration.           
