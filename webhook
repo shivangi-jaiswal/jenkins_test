@@ -21,6 +21,6 @@ node {
       }
    }
    stage('Results') {
-      archiveArtifacts 'api-gateway/*.jar'
+      archiveArtifacts 'api-gateway/target/*.jar'
    }
 }
